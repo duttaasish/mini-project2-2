@@ -1,0 +1,130 @@
+h4 {
+    margin: 10px;
+}
+
+img {
+    height: 120px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+.countryDiv {
+    text-align: center;
+    height: 240px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(165, 220, 214);
+    margin-left: 90px;
+    float: left;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.countryDiv:hover{
+    transform: scale(1.1);
+}
+
+.countryName {
+    color: rgb(14, 132, 87);
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.countryName2 {
+    color: rgb(14, 132, 87);
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.tableformat {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.thformat {
+    width: 150px;
+    margin-top: 70px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.tdformat {
+    margin-top: 70px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.modalDiv {
+    background-color: rgb(165, 220, 214);
+    text-align: center;
+}
+
+.footerModal{
+    background-color: rgb(165, 220, 214);
+}
+
+.homeImg {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 160px;
+    box-shadow: 0px 0px 30px magenta;
+    animation: mybanner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mybanner {
+    20% {
+        box-shadow: 0px 0px 30px red;
+    }
+
+    45% {
+        box-shadow: 0px 0px 30px rgb(203, 212, 26);
+    }
+
+    60% {
+        box-shadow: 0px 0px 30px rgb(234, 11, 193);
+    }
+
+    85% {
+        box-shadow: 0px 0px 30px rgba(14, 226, 57, 0.99);
+    }
+}
+.mainDiv{
+    background-color: rgb(16, 16, 80);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.homeMainDiv {
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 0px;
+
+}
+
+.headingDiv {
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-top: 7px;
+}
+
+span {
+    font-size: 20px;
+    margin-left: 7%;
+    margin-right: 8px;
+    font-weight: bold;
+    color: aliceblue;
+}
